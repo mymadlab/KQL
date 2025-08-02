@@ -9,4 +9,5 @@
 
 ### Summerizing Data
 
+- [Count](count.md)
 - [Take](take.md)
