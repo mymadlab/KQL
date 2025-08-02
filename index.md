@@ -6,3 +6,7 @@
 
 - [Search](search.md)
 - [Where](where.md)
+
+### Summerizing Data
+
+- [Take](take.md)
