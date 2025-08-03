@@ -7,7 +7,8 @@
 - [Search](search.md)
 - [Where](where.md)
 
-### Summerizing Data
+### Summarizing Data
 
 - [Count](count.md)
+- [Summarize](summarize.md)
 - [Take](take.md)
