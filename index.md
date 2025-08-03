@@ -6,3 +6,9 @@
 
 - [Search](search.md)
 - [Where](where.md)
+
+### Summarizing Data
+
+- [Count](count.md)
+- [Summarize](summarize.md)
+- [Take](take.md)
