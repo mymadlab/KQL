@@ -13,6 +13,7 @@
 - [Distinct](distinct.md)
 - [Summarize](summarize.md)
 - [Take](take.md)
+- [Top](top.md)
 
 ### Managing Display Columns
 
