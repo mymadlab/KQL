@@ -30,3 +30,4 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 #### Datetime
 
 - [Ago](ago.md)
+- [Now](now.md)
