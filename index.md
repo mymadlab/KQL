@@ -26,3 +26,7 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 ### Scalar Operators
 
 - [Sort](sort.md)
+
+#### Datetime
+
+- [Ago](ago.md)
