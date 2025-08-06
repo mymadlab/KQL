@@ -22,3 +22,7 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 
 - [Extend](extend.md)
 - [Project](project.md)
+
+### Scalar Operators
+
+- [Sort](sort.md)
