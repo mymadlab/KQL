@@ -11,6 +11,7 @@
 
 - [Count](count.md)
 - [Distinct](distinct.md)
+- [Print](print.md)
 - [Summarize](summarize.md)
 - [Take](take.md)
 - [Top](top.md)
