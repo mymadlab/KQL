@@ -13,6 +13,7 @@
 - [Summarize](summarize.md)
 - [Take](take.md)
 
-### Managing Display Columnsz
+### Managing Display Columns
 
 - [Extend](extend.md)
+- [Project](project.md)
