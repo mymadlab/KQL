@@ -10,6 +10,7 @@
 ### Summarizing Data
 
 - [Count](count.md)
+- [Distinct](distinct.md)
 - [Summarize](summarize.md)
 - [Take](take.md)
 
