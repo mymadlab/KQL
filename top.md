@@ -15,3 +15,4 @@ table_name
 table_name
 | where ColumnName1 >= ago(10m)
 | top 5 by ColumnName2 asc
+```
