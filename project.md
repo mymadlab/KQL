@@ -115,7 +115,7 @@ table_name
           ColumnName1
 ```
 
-### project-
+### project-reorder
 
 - Select order of initial columns then display the rest as the table is ordered
 - Does support wildcards (*)
@@ -123,7 +123,7 @@ table_name
 ```KQL
 table_name
 | where ColumnName1 == "string1"
-| project-order ColumnName1,
+| project-reorder ColumnName1,
           ColumnName6,
           ColumnName5,
           ColumnName4,
@@ -135,5 +135,5 @@ table_name
 ```KQL
 table_name
 | where ColumnName1 == "string1"
-| project-order * asc
+| project-reorder * asc
 ```
