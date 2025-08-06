@@ -12,3 +12,7 @@
 - [Count](count.md)
 - [Summarize](summarize.md)
 - [Take](take.md)
+
+### Managing Display Columnsz
+
+- [Extend](extend.md)
