@@ -1,5 +1,7 @@
 # Kusto Query Language
 
+A demo environment for queries can be access at https://aka.ms/LADemo
+
 ## Table of Contents
 
 ### Searching for Data
