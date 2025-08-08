@@ -32,5 +32,6 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 - [Ago](ago.md)
 - [Date/Time Arithmetic](datetimearithmetic.md)
 - [Datetime](datetime.md)
+- [Endof](endof.md)
 - [Now](now.md)
 - [Startof](startof.md)
