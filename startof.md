@@ -2,7 +2,7 @@
 
 -  Set of operators that allow you to select the start of a time period (day, year, etc.)
 
-## Basics of start of
+## Basics of startof
 
 ```KQL
 table_name
