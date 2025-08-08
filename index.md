@@ -33,3 +33,4 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 - [Date/Time Arithmetic](datetimearithmetic.md)
 - [Datetime](datetime.md)
 - [Now](now.md)
+- [Startof](startof.md)
