@@ -29,6 +29,12 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 
 #### Datetime
 
+##### Formatting
+
+- [Format_datetime](format_datetime.md)
+
+##### Time periods
+
 - [Ago](ago.md)
 - [Between](between.md) - (Works for numbers as well.)
 - [Date/Time Arithmetic](datetimearithmetic.md)
@@ -36,3 +42,4 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 - [Endof](endof.md)
 - [Now](now.md)
 - [Startof](startof.md)
+ 
