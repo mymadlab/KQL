@@ -30,6 +30,7 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 #### Datetime
 
 - [Ago](ago.md)
+- [Between](between.md) - (Works for numbers as well.)
 - [Date/Time Arithmetic](datetimearithmetic.md)
 - [Datetime](datetime.md)
 - [Endof](endof.md)
