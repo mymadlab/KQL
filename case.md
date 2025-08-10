@@ -48,7 +48,7 @@ table_name
 
 ```KQL
 table_name
-| where ColumnName1 == "string1 and ColumnName2 > 0
+| where ColumnName1 == "string"1" and ColumnName2 > 0
 | where TimeColumnName1 >= startofyear(now())
 | project TimeColumnName1,
 					ColumnName3
@@ -85,7 +85,7 @@ table_name
 
 ```KQL
 table_name
-| where ColumnName1 == "string1 and ColumnName2 > 0
+| where ColumnName1 == "string1" and ColumnName2 > 0
 | where TimeColumnName1 >= startofyear(now())
 | project TimeColumnName1,
 					ColumnName3
