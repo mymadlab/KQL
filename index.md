@@ -1,5 +1,7 @@
 # Kusto Query Language
 
+A demo environment for queries can be accessed at https://aka.ms/LADemo
+
 ## Table of Contents
 
 ### Searching for Data
@@ -20,3 +22,37 @@
 
 - [Extend](extend.md)
 - [Project](project.md)
+- [Sort](sort.md)
+
+### Datetime
+
+#### Formatting
+
+- [Datetime_part](datetime_part.md)
+- [Format_datetime](format_datetime.md)
+- [Format_timespan](format_timespan.md)
+
+#### Time periods
+
+- [Ago](ago.md)
+- [Between](between.md) - (Works for numbers as well.)
+- [Date/Time Arithmetic](datetimearithmetic.md)
+- [Datetime](datetime.md)
+- [Endof](endof.md)
+- [Now](now.md)
+- [Startof](startof.md)
+
+### Logic Operator
+
+- [Case](case.md)
+- [Iif](iif.md)
+- [IsEmpty / IsNull](isempty-isnull.md)
+
+### Strings
+
+- [Contains and In](contains-and-in.md)=
+- [Extract](extract.md)
+- [Parse](parse.md)
+- [Parse_json](parse_json.md)
+- [Split](split.md)
+- [Strcat](strcat.md)
