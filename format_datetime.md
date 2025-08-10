@@ -49,6 +49,7 @@ print D1 = format_datetime(TimeColumn1, "y-M-d")
 
 ## Format_datetime basics
 
+```KQL
 table_name
 | where TimeColumn1 >= ago(60d)
 | project TimeColumn1,
@@ -60,12 +61,15 @@ table_name
 					T3 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss.ffff")
 					ColumnName1,
 					ColumnName2
+```
 
 ## Separating Date and time
 
+```KQL
 Table_name
 | project TimeColumn1,
           TheDate = format_datetime(TimeColumn1, "yyyy-MM-dd"),
           TheTime = format_datetime(TimeColumn1, "hh:mm:ss tt"),
 					ColumnName1,
 					ColumnName2
+```
