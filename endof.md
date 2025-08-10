@@ -10,9 +10,9 @@ table_name
 | extend DayGenerated = endofday(TimeColumnName1)
 | project TimeColumnName1,
           DayGenerated,
-					ColumnName1,
-					ColumnName2,
-					ColumnName3
+          ColumnName1,
+          ColumnName2,
+          ColumnName3
 ```
 ## Examples of various EndOf
 
@@ -34,10 +34,10 @@ table_name
 | extend DayGenerated = endofday(TimeColumnName1)
 | project TimeColumnName1,
           DayGenerated,
-					ColumnName1,
+          ColumnName1,
 | summarize LogCount = count()
             by DayGenerated,
-						   ColumnName1
+               ColumnName1
 | sort by ColumnName1 asc,
           DayGenerated asc
 ```

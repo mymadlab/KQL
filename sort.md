@@ -12,11 +12,11 @@ table_name
 | where ColumnName2 > ago(3m)
 | project ColumnName1,
           ColumnName2,
-					ColumnName3,
-					ColumnName4
+          ColumnName3,
+          ColumnName4
 | sort by ColumnName1,
           ColumnName4,
-					ColumnName2
+          ColumnName2
 ```
 
 ## Each column different sort order
@@ -27,9 +27,9 @@ table_name
 | where ColumnName2 > ago(3m)
 | project ColumnName1,
           ColumnName2,
-					ColumnName3,
-					ColumnName4
+          ColumnName3,
+          ColumnName4
 | sort by ColumnName1 asc,
           ColumnName4 asc,
-					ColumnName2 desc
+          ColumnName2 desc
 ```

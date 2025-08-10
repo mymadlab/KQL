@@ -1,4 +1,4 @@
-# Where Syntax and Notes
+# Where
 
 - Condition based search
 

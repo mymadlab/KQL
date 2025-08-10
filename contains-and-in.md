@@ -34,7 +34,7 @@ Case sensitive not
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 contains "STRING1"
 ```
 
@@ -44,7 +44,7 @@ table_name
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 contains_cs "STRING1"
 ```
 
@@ -54,7 +54,7 @@ table_name
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 !contains "STRING1"
 ```
 
@@ -64,7 +64,7 @@ table_name
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 !contains_cs "STRING1"
 ```
 
@@ -74,7 +74,7 @@ table_name
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 in ("String1", "String2", "String3")
 ```
 
@@ -84,7 +84,7 @@ table_name
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 in~ ("string1", "STRING2", "StRing3")
 ```
 
@@ -94,7 +94,7 @@ table_name
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 !in ("String1", "String2", "String3")
 ```
 
@@ -104,6 +104,6 @@ table_name
 table_name
 | project ColumnName1,
           ColumnName2,
-					ColumnName3
+          ColumnName3
 | where ColumnName2 !in~ ("string1", "STRING2", "StRing3")
 ```

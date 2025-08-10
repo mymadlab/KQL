@@ -10,9 +10,9 @@ table_name
 | extend DayGenerated = startofday(TimeColumnName1)
 | project TimeColumnName1,
           DayGenerated,
-					ColumnName1,
-					ColumnName2,
-					ColumnName3
+          ColumnName1,
+          ColumnName2,
+          ColumnName3
 ```
 
 ## Calculating startof last year
@@ -35,10 +35,10 @@ table_name
 | extend DayGenerated = startofday(TimeColumnName1)
 | project TimeColumnName1,
           DayGenerated,
-					ColumnName1,
+          ColumnName1,
 | summarize LogCount = count()
             by DayGenerated,
-						   ColumnName1
+               ColumnName1
 | sort by ColumnName1 asc,
           DayGenerated asc
 ```
@@ -51,10 +51,10 @@ table_name
 | extend DayGenerated = startofmonth(TimeColumnName1)
 | project TimeColumnName1,
           DayGenerated,
-					ColumnName1,
+          ColumnName1,
 | summarize LogCount = count()
             by DayGenerated,
-						   ColumnName1
+               ColumnName1
 | sort by ColumnName1 asc,
           DayGenerated asc
 ```
@@ -67,10 +67,10 @@ table_name
 | extend DayGenerated = startofyear(TimeColumnName1)
 | project TimeColumnName1,
           DayGenerated,
-					ColumnName1,
+          ColumnName1,
 | summarize LogCount = count()
             by DayGenerated,
-						   ColumnName1
+               ColumnName1
 | sort by ColumnName1 asc,
           DayGenerated asc
 ```
@@ -83,10 +83,10 @@ table_name
 | extend DayGenerated = startofweek(TimeColumnName1)
 | project TimeColumnName1,
           DayGenerated,
-					ColumnName1,
+          ColumnName1,
 | summarize LogCount = count()
             by DayGenerated,
-						   ColumnName1
+               ColumnName1
 | sort by ColumnName1 asc,
           DayGenerated asc
 ```

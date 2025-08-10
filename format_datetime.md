@@ -40,11 +40,11 @@ tt - am/pm
 
 ```KQL
 print D1 = format_datetime(TimeColumn1, "y-M-d")
-			D2 = format_datetime(TimeColumn1, "yyyy-MM-dd")
-			D3 = format_datetime(TimeColumn1, "MM/dd/yyyy")
-			T1 = format_datetime(TimeColumn1, "MM/dd/yyyy hh:mm:ss tt")
-			T2 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss")
-			T3 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss.ffff")
+      D2 = format_datetime(TimeColumn1, "yyyy-MM-dd")
+      D3 = format_datetime(TimeColumn1, "MM/dd/yyyy")
+      T1 = format_datetime(TimeColumn1, "MM/dd/yyyy hh:mm:ss tt")
+      T2 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss")
+      T3 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss.ffff")
 ```
 
 ## Format_datetime basics
@@ -54,13 +54,13 @@ table_name
 | where TimeColumn1 >= ago(60d)
 | project TimeColumn1,
           D1 = format_datetime(TimeColumn1, "y-M-d")
-					D2 = format_datetime(TimeColumn1, "yyyy-MM-dd")
-					D3 = format_datetime(TimeColumn1, "MM/dd/yyyy")
-					T1 = format_datetime(TimeColumn1, "MM/dd/yyyy hh:mm:ss tt")
-					T2 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss")
-					T3 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss.ffff")
-					ColumnName1,
-					ColumnName2
+          D2 = format_datetime(TimeColumn1, "yyyy-MM-dd")
+          D3 = format_datetime(TimeColumn1, "MM/dd/yyyy")
+          T1 = format_datetime(TimeColumn1, "MM/dd/yyyy hh:mm:ss tt")
+          T2 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss")
+          T3 = format_datetime(TimeColumn1, "MM/dd/yyyy HH:mm:ss.ffff")
+          ColumnName1,
+          ColumnName2
 ```
 
 ## Separating Date and time
@@ -70,6 +70,6 @@ Table_name
 | project TimeColumn1,
           TheDate = format_datetime(TimeColumn1, "yyyy-MM-dd"),
           TheTime = format_datetime(TimeColumn1, "hh:mm:ss tt"),
-					ColumnName1,
-					ColumnName2
+          ColumnName1,
+          ColumnName2
 ```

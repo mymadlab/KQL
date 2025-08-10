@@ -10,7 +10,7 @@ table_name
 | parse ColumnName1 with "string1" ParsedColumnName1
 | project TimeColumnName1,
           ColumnName1,
-					ParsedColumnName1
+          ParsedColumnName1
 ```
 
 Will find string1 and then remove it and everything before it. If parsed does not find a match the output (ParsedColumnName1) is empty.  Good idea to use an isempty check here.
@@ -23,8 +23,8 @@ table_name
 | parse ColumnName1 with "GET" ParsedColumnName1
 | project TimeColumnName1,
           ColumnName1,
-					ColumnName2,
-					ColumnName3
+          ColumnName2,
+          ColumnName3
 | parse ColumnName3 with "prefixstring2" ParsedColumnName3a "midstring3" ParsedColumnName3b "postfixstring4" ParsedColumnName3c
 ```
 

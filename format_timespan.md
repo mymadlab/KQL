@@ -29,12 +29,12 @@ table_name
 | extend TimeGen = Now() - TimeColumnName1
 | project TimeColumnName1,
           TimeGen,
-					TS1 = format_timespan(TimeGen, "dd.HH.:mm:ss"),
-					TS2 = format_timespan(TimeGen, "dd HH:mm:ss"),
-					TS3 = format_timespan(TimeGen, "d.H:m:s"),
-					TS4 = format_timespan(TimeGen, "d H:m:s"),
-					ColumnName1,
-					ColumnName2
+          TS1 = format_timespan(TimeGen, "dd.HH.:mm:ss"),
+          TS2 = format_timespan(TimeGen, "dd HH:mm:ss"),
+          TS3 = format_timespan(TimeGen, "d.H:m:s"),
+          TS4 = format_timespan(TimeGen, "d H:m:s"),
+          ColumnName1,
+          ColumnName2
 ```
 
 ## Examples using print
@@ -68,13 +68,13 @@ table_name
 | extend TimeGen = endofweek(Now()) - TimeColumnName1
 | project TimeColumnName1,
           TimeGen,
-					Days       = format_timespan(TimeGen, "dd"),
-					Hours      = format_timespan(TimeGen, "HH"),
-					Minutes    = format_timespan(TimeGen, "mm"),
-					Seconds    = format_timespan(TimeGen, "ss"),
-					Subseconds = format_timespan(TimeGen, "ffff"),
-					ColumnName1,
-					ColumnName2
+          Days       = format_timespan(TimeGen, "dd"),
+          Hours      = format_timespan(TimeGen, "HH"),
+          Minutes    = format_timespan(TimeGen, "mm"),
+          Seconds    = format_timespan(TimeGen, "ss"),
+          Subseconds = format_timespan(TimeGen, "ffff"),
+          ColumnName1,
+          ColumnName2
 ```
 
 ## Creating sentences using format_timespan and strcat
@@ -85,13 +85,13 @@ table_name
 | extend TimeGen = endofweek(Now()) - TimeColumnName1
 | project TimeColumnName1,
           TimeGen,
-					Sentence = strcat ("Hello it has been ",
-					format_timespan(TimeGen, "dd"), " days ",
-					format_timespan(TimeGen, "hh"), " hours ",
-					format_timespan(TimeGen, "mm"), " minutes, and "
-					format_timespan(TimeGen, "ss,ff"), " seconds."
-					)
-					ColumnName1,
-					ColumnName2
+          Sentence = strcat ("Hello it has been ",
+          format_timespan(TimeGen, "dd"), " days ",
+          format_timespan(TimeGen, "hh"), " hours ",
+          format_timespan(TimeGen, "mm"), " minutes, and "
+          format_timespan(TimeGen, "ss,ff"), " seconds."
+          )
+          ColumnName1,
+          ColumnName2
 ```
 

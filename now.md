@@ -8,6 +8,6 @@
 ```KQL
 print current = now(),     // current datetime
       future  = now(+1d),  // 1 day from now
-			past    = now(-1d)   // 1 day ago or same as ago(1d)
+      past    = now(-1d)   // 1 day ago or same as ago(1d)
 
 ```

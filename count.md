@@ -14,7 +14,7 @@ table_name
 ```KQL
 table_name
 | where ColumnName1 >= ago(1h)
-  and ColumnName2 == "string1"
-  and ColumnName3 > 0
+        and ColumnName2 == "string1"
+        and ColumnName3 > 0
 | count
 ```

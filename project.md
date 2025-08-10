@@ -37,7 +37,7 @@ table_name
           ColumnName3,
           ColumnName4,
           ColumnName5,
-					NewColumnName1
+          NewColumnName1
 ```
 
 ## Project can perform calculations thus eliminating extend
@@ -49,7 +49,7 @@ table_name
           ColumnName3,
           ColumnName4,
           ColumnName5,
-					NewColumnName1 = ColumnName2/1000
+          NewColumnName1 = ColumnName2/1000
 ```
 
 ## Project Variants

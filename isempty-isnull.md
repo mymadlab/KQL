@@ -20,12 +20,12 @@ table_name
 table_name
 | extend NewColumnName1 = iif(isnull(NumberColumn1),
                               "It's a null value",
-															tostring(NumberColumn1) // Must convert to string so all out comes are the same type
+                              tostring(NumberColumn1) // Must convert to string so all out comes are the same type
                              )
 | project ColumnName1,
           NumberColumn1,
           NewColumnName1,
-					ColumnName2
+          ColumnName2
 ```
 
 ## IsEmpty (Strings)
@@ -45,9 +45,9 @@ table_name
 | where TimeColumnName1 >= ago(1h)
 | extend NewColumnName1 = iif(isnull(StringColumnName1),
                               "It's a empty value,
-															StringColumnName1
+                              StringColumnName1
                              )
 | project TimeColumnName1,
           StringColumnName1,
-					NewColumnName1,
+          NewColumnName1,
 ```

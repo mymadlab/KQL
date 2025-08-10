@@ -9,8 +9,8 @@ table_name
 | extend RightNow = now()
 | project TimeColumnName1,
           RightNow,
-					HowLongAgo = (RightNow - TimeColumn),
-					ColumnName2
+          HowLongAgo = (RightNow - TimeColumn),
+          ColumnName2
 ```
 
 ## With datetime function
@@ -23,9 +23,9 @@ table_name
           TimeSinceNewServices = (TimeColumnName1 - datetime(2022-11-03))
 | project TimeColumnName1,
           RightNow,
-					HowLongAgo = (RightNow - TimeColumn),
-					TimeSinceNewServices,
-					ColumnName2
+          HowLongAgo = (RightNow - TimeColumn),
+          TimeSinceNewServices,
+          ColumnName2
 ```
 
 ## Determine number of time units

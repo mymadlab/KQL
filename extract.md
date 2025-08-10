@@ -14,8 +14,8 @@ table_name
 | where ColumnName1 == "String1" and ColumnName2 matches regex "[A-Z]:"
 | project ColumnName3,
           ColumnName4,
-					ColumnName2,
-					RegexColumnName2 = extract("[A-Z]:", 0, ColumnName2)
+          ColumnName2,
+          RegexColumnName2 = extract("[A-Z]:", 0, ColumnName2)
 ```
 
 ## Return part of the text
@@ -25,8 +25,8 @@ table_name
 | where ColumnName1 == "String1"
 | project ColumnName3,
           ColumnName4,
-					ColumnName2,
-					RegexColumnName2 = extract("([A-Z]):", 1, ColumnName2)
+          ColumnName2,
+          RegexColumnName2 = extract("([A-Z]):", 1, ColumnName2)
 ```
 
 ## Return more than 1 character
@@ -35,5 +35,5 @@ table_name
 table_name
 | distinct ColumnName1
 | project ColumnName1,
-					RegexColumnName1 = extract("([A-Z]{2,4}):", 1, ColumnName1)
+          RegexColumnName1 = extract("([A-Z]{2,4}):", 1, ColumnName1)
 ```
