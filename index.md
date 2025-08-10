@@ -1,6 +1,6 @@
 # Kusto Query Language
 
-A demo environment for queries can be access at https://aka.ms/LADemo
+A demo environment for queries can be accessed at https://aka.ms/LADemo
 
 ## Table of Contents
 
@@ -22,20 +22,17 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 
 - [Extend](extend.md)
 - [Project](project.md)
-
-### Scalar Operators
-
 - [Sort](sort.md)
 
-#### Datetime
+### Datetime
 
-##### Formatting
+#### Formatting
 
 - [Datetime_part](datetime_part.md)
 - [Format_datetime](format_datetime.md)
 - [Format_timespan](format_timespan.md)
 
-##### Time periods
+#### Time periods
 
 - [Ago](ago.md)
 - [Between](between.md) - (Works for numbers as well.)
@@ -44,4 +41,7 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 - [Endof](endof.md)
 - [Now](now.md)
 - [Startof](startof.md)
- 
+
+### Logic Operator
+
+- [Iif](iif.md)
