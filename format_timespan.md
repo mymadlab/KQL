@@ -6,27 +6,20 @@
 
 There is no 12 hour clock format of **h** (lowercase), as this calculates the elapsed hours not the time of day.
 
->d  - Day, number D's indicates how many 0s to use
->H  - Hour, 0 to 23 (24 hour clock)
->HH - Hour, 00 to 23 (24 hour clock)
->m  - Minute, 0 to 59
->mm - Minute, 00 to 59
->s  - Second, 00 to 59
->ss - Second, 00 to 59
->f  - Sub-second
->F  - Sub-second for non-zero values
-
+```
+d  - Day, number D's indicates how many 0s to use
+H  - Hour, 0 to 23 (24 hour clock)
+HH - Hour, 00 to 23 (24 hour clock)
+m  - Minute, 0 to 59
+mm - Minute, 00 to 59
+s  - Second, 00 to 59
+ss - Second, 00 to 59
+f  - Sub-second
+F  - Sub-second for non-zero values
+```
 ### Allowed Separators
 
-- /
-- -
-- :
-- ,
-- .
-- _
-- [
-- ]
-- or a space
+> / \- : , . _ [ ] or a space
 
 ## Format_timespan basics
 
