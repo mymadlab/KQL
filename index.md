@@ -46,3 +46,4 @@ A demo environment for queries can be accessed at https://aka.ms/LADemo
 
 - [Case](case.md)
 - [Iif](iif.md)
+- [IsEmpty / IsNull](isempty-isnull.md)
