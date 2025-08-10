@@ -44,4 +44,5 @@ A demo environment for queries can be accessed at https://aka.ms/LADemo
 
 ### Logic Operator
 
+- [Case](case.md)
 - [Iif](iif.md)
