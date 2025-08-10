@@ -50,4 +50,5 @@ A demo environment for queries can be accessed at https://aka.ms/LADemo
 
 ### Strings
 
+- [Split](split.md)
 - [Strcat](strcat.md)
