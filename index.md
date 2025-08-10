@@ -32,6 +32,7 @@ A demo environment for queries can be access at https://aka.ms/LADemo
 ##### Formatting
 
 - [Format_datetime](format_datetime.md)
+- [Format_timespan](format_timespan)
 
 ##### Time periods
 
