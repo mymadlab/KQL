@@ -86,7 +86,7 @@ table_name
 
 ## Not between
 
-``KQL
+```KQL
 table_name
 | where TimeColumnName1 = "string1"
 | where ColumnName1 !between (20.0 .. 60.0)
