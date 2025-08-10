@@ -1,6 +1,6 @@
 # Format_datetime
 
-- Outputs datetime types based on the defined format
+- Outputs datetime types based on the defined format returning a string.
 
 ## Syntax
 
