@@ -50,6 +50,9 @@ A demo environment for queries can be accessed at https://aka.ms/LADemo
 
 ### Strings
 
-- [Contains and In](contains-and-in.md)
+- [Contains and In](contains-and-in.md)=
+- [Extract](extract.md)
+- [Parse](parse.md)
+- [Parse_json](parse_json.md)
 - [Split](split.md)
 - [Strcat](strcat.md)
