@@ -28,6 +28,7 @@ mm - Minute, 00 to 59
 s  - second, 0 to 59
 ss - second, 00 to 59
 tt - am/pm
+```
 
 >f/F displays sub seconds. The number of them indicates the precision down to millionth of a second. A lowercase f will always display a 0, where uppercase F will display only if there is a subsecond value.
 
