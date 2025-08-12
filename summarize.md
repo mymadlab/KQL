@@ -20,6 +20,6 @@ table_name
 
 ```KQL
 table_name
-| summarize count() Counter=count()
+| summarize Counter=count()
   by ColumnName1, ColumnName2
 ```

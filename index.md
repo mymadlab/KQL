@@ -52,7 +52,9 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 
 - [Contains and In](contains-and-in.md)
 - [Extract](extract.md)
+- [Has*][has.md]
 - [Parse](parse.md)
 - [Parse_json](parse_json.md)
 - [Split](split.md)
+- [*with](with.md)
 - [Strcat](strcat.md)
