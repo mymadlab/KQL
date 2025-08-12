@@ -1,6 +1,6 @@
 # Kusto Query Language
 
-A demo environment for queries can be accessed at https://aka.ms/LADemo
+A demo environment for queries can be accessed at [https://aka.ms/LADemo](https://aka.ms/LADemo).
 
 ## Table of Contents
 
