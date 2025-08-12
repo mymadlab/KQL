@@ -1,11 +1,13 @@
 # Ago
 
 - Calculates past date relative to the current date
+- Supplying a negative value will give you a future date
 
 ## Print 1 Hour
 
 ```KQL
-print ago(1h)
+print HourAgo   = ago(1h)
+      HourLater = ago(-1h)
 ```
 
 ## All time unites

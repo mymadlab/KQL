@@ -1,6 +1,6 @@
 # Kusto Query Language
 
-A demo environment for queries can be accessed at https://aka.ms/LADemo
+A demo environment for queries can be accessed at [https://aka.ms/LADemo](https://aka.ms/LADemo).
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ A demo environment for queries can be accessed at https://aka.ms/LADemo
 #### Time periods
 
 - [Ago](ago.md)
-- [Between](between.md) - (Works for numbers as well.)
+- [Between](between.md) (Works for numbers as well.)
 - [Date/Time Arithmetic](datetimearithmetic.md)
 - [Datetime](datetime.md)
 - [Endof](endof.md)
@@ -46,13 +46,19 @@ A demo environment for queries can be accessed at https://aka.ms/LADemo
 
 - [Case](case.md)
 - [Iif](iif.md)
-- [IsEmpty / IsNull](isempty-isnull.md)
+- [IsEmpty/IsNull](isempty-isnull.md)
 
 ### Strings
 
 - [Contains and In](contains-and-in.md)
 - [Extract](extract.md)
+- [Has/HasPrefix/HasSuffix](has.md)
 - [Parse](parse.md)
-- [Parse_json](parse_json.md)
+- [Parse_json](parse_json.md) (Previously todynamic)
 - [Split](split.md)
+- [StartWith/EndsWith](with.md)
 - [Strcat](strcat.md)
+
+### Numbers
+
+- [Bin](bin.md)

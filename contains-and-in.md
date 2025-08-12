@@ -28,7 +28,7 @@ Case sensitive not
 
 > !startswith_cs, !endswith_cs, !has_cs, !hasprefix_cs, !hassuffix_cs, and !contains_cs
 
-## Basic case ç 
+## Basic case
 
 ```KQL
 table_name
