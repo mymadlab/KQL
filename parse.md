@@ -2,6 +2,8 @@
 
 - Like split, however it divides by one or text strings.
 - If the string stored in the column is inconsistent then multiple queries may be needed.
+- 
+- Use a * as the last name of a column will discard the remaining text
 
 ## Parse Basics
 
