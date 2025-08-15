@@ -65,15 +65,15 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 
 ### Aggregations/Collections
 
+- [Any](any.md)
 - [Arg_max/Arg_min](arg_max-arg_min.md)
+- [Countif](countif.md)
+- [Dcount](dcount.md)
+- [Dcountif](dcoungif.md)
 - [Makeset/Makelist](makeset-makelist.md)
+- [Max/Min](max-min.md)
 - [Mv-expand](mv-expand.md)
 - [Percentiles](percentiles.md)
-- [dcount](dcount.md)
-- [dcountif](dcoungif.md)
-- [countif](countif.md)
-- [pivot](pivot.md)
-- [top-nested](top-nested.md)
-- [Max/Min](max-min.md)
+- [Pivot](pivot.md)
 - [Sum/Sumif](sum-sumif.md)
-- [Any](any.md)
+- [Top-nested](top-nested.md)
