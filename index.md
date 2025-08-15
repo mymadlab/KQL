@@ -67,7 +67,7 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 
 - [Arg_max/Arg_min](arg_max-arg_min.md)
 - [Makeset/Makelist](makeset-makelist.md)
-- [Mvexpand](mvexpand.md)
+- [Mv-expand](mv-expand.md)
 - [Percentiles](percentiles.md)
 - [dcount](dcount.md)
 - [dcountif](dcoungif.md)
