@@ -2,6 +2,7 @@
 
 - Makeset creates an array of json objects by flattening a hierarchy. Remove multiple values
 - Makelist same as makeset, but keeps duplicate values.
+- By default they only return 128 items
 
 ## Basic example
 
