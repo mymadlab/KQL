@@ -74,4 +74,5 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 - [Percentiles](percentiles.md)
 - [Pivot](pivot.md)
 - [Sum/Sumif](sum-sumif.md)
+- [Take_any](take_any.md)
 - [Top-nested](top-nested.md)
