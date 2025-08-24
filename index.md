@@ -65,7 +65,6 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 
 ### Aggregations/Collections
 
-- [Any](any.md)
 - [Arg_max/Arg_min](arg_max-arg_min.md)
 - [Countif](countif.md)
 - [Dcountif](dcountif.md)
@@ -75,4 +74,5 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 - [Percentiles](percentiles.md)
 - [Pivot](pivot.md)
 - [Sum/Sumif](sum-sumif.md)
+- [Take_any](take_any.md)
 - [Top-nested](top-nested.md)
