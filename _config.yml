@@ -1,6 +1,50 @@
-remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: biggiebk/theme_mymadlab
+
+# Site settings
+title: KQL
+description: >-
+  Notes on using Kusto Query Language (KQL) for data analysis.
+
+# Personal info
+author: Bryce Klimoski
+email: biggiebk@mymadlab.net
+github_username: mymadlab
+repository: mymadlab/KQL
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 plugins:
-- jekyll-remote-theme
-title: Kusto Query Language (KQL)
-description: Notes and examples for Kusto Query Language (KQL)
-show_downloads: false
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Theme configuration
+show_posts: true
+show_rss_subscribe: true
+header_pages: 
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Syntax highlighting settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
