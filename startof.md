@@ -1,4 +1,7 @@
-# Startof
+---
+layout: home
+title: Startof
+---
 
 -  Set of operators that allow you to select the start of a time period (day, year, etc.)
 

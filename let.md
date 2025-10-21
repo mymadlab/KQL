@@ -1,4 +1,7 @@
-# Let
+---
+layout: home
+title: Let
+---
 
 - Sets variables that be referenced in the query.
 - Can be a constant, calculation, or even a function.

@@ -1,4 +1,7 @@
-# Sort
+---
+layout: home
+title: Sort
+---
 
 - Orders output based off of one or more columns
 - Order is descending (desc) by default. You can specify ascending (asc)

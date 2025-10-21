@@ -1,4 +1,7 @@
-# Arg_max / Arg_min
+---
+layout: home
+title: Arg_max / Arg_min
+---
 
 - Get the max/min values in one column with another column and then display other columns
 

@@ -1,4 +1,7 @@
-# Strcat
+---
+layout: home
+title: Strcat
+---
 
 - String concatenation
 - Converts numeric columns to string

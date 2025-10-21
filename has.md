@@ -1,4 +1,7 @@
-# Has / Hasprefix / Hassuffix
+---
+layout: home
+title: Has / Hasprefix / Hassuffix
+---
 
 - Looks for words in a string column
 - Has looks for the whole word

@@ -1,4 +1,7 @@
-# Contains and In
+---
+layout: home
+title: Contains and In
+---
 
 - Contains searches a string for a sub string
 - In takes multiple strings and looks to match one of those strings.

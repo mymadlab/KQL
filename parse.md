@@ -1,4 +1,7 @@
-# Parse
+---
+layout: home
+title: Parse
+---
 
 - Like split, however it divides by one or text strings.
 - If the string stored in the column is inconsistent then multiple queries may be needed.

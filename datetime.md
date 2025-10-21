@@ -1,4 +1,7 @@
-# Datetime
+---
+layout: home
+title: Datetime
+---
 
 - Creates a datetime object/type
 

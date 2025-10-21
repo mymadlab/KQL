@@ -1,4 +1,7 @@
-# Date/Time Arithmetic
+---
+layout: home
+title: Date/Time Arithmetic
+---
 
 ## How long ago (subtraction)
 

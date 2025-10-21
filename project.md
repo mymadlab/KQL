@@ -1,4 +1,7 @@
-# Project
+---
+layout: home
+title: Project
+---
 
 - Select one or more columns
 - It is possible to use multiple projects

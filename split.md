@@ -1,4 +1,7 @@
-# Split
+---
+layout: home
+title: Split
+---
 
 - Breaks down larger strings into several smaller strings.
 

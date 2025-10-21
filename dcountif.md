@@ -1,4 +1,7 @@
-# Dcountif
+---
+layout: home
+title: Dcountif
+---
 
 - Same as [Dcount](dcount.md), however the seconde parameter is an expression that filters the data/rows.
 - Good for large sets of data.

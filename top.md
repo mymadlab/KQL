@@ -1,4 +1,7 @@
-# Top
+---
+layout: home
+title: Top
+---
 
 - First number of rows ranked by a column
 

@@ -1,4 +1,7 @@
-# Dcount
+---
+layout: home
+title: Dcount
+---
 
 - Aggregation function that estimates the number of distinct values that are taken by a scalar expression in the summary group.
 - Good for large sets of data.

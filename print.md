@@ -1,4 +1,7 @@
-# Print
+---
+layout: home
+title: Print
+---
 
 - Outputs text
 

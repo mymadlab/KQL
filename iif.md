@@ -1,4 +1,7 @@
-# Iif
+---
+layout: home
+title: Iif
+---
 
 - If then operator
 

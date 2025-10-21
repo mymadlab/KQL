@@ -1,4 +1,7 @@
-# Now
+---
+layout: home
+title: Now
+---
 
 - Returns current, future, or past datetime
 - Can function in place of ago operator
