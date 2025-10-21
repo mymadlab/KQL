@@ -3,8 +3,6 @@ layout: home
 title: Mv-expand
 ---
 
-# Mv-expand
-
 - Expands multi-value dynamic values similar to what makeset or makelist create and converts it to rows
 
 ## Basic
