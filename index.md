@@ -5,14 +5,12 @@ title: Kusto Query Language (KQL)
 
 A demo environment for queries can be accessed at [https://aka.ms/LADemo](https://aka.ms/LADemo).
 
-## Table of Contents
-
-### Searching for Data
+## Searching for Data
 
 - [Search](search.md)
 - [Where](where.md)
 
-### Summarizing Data
+## Summarizing Data
 
 - [Count](count.md)
 - [Distinct](distinct.md)
@@ -21,21 +19,21 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 - [Take](take.md)
 - [Top](top.md)
 
-### Managing Display Columns
+## Managing Display Columns
 
 - [Extend](extend.md)
 - [Project](project.md)
 - [Sort](sort.md)
 
-### Datetime
+## Datetime
 
-#### Formatting
+### Formatting
 
 - [Datetime_part](datetime_part.md)
 - [Format_datetime](format_datetime.md)
 - [Format_timespan](format_timespan.md)
 
-#### Time periods
+### Time periods
 
 - [Ago](ago.md)
 - [Between](between.md) (Works for numbers as well.)
@@ -45,13 +43,13 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 - [Now](now.md)
 - [Startof](startof.md)
 
-### Logic Operator
+## Logic Operator
 
 - [Case](case.md)
 - [Iif](iif.md)
 - [IsEmpty/IsNull](isempty-isnull.md)
 
-### Strings
+## Strings
 
 - [Contains and In](contains-and-in.md)
 - [Extract](extract.md)
@@ -62,11 +60,11 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 - [StartWith/EndsWith](with.md)
 - [Strcat](strcat.md)
 
-### Numbers
+## Numbers
 
 - [Bin](bin.md)
 
-### Aggregations/Collections
+## Aggregations/Collections
 
 - [Arg_max/Arg_min](arg_max-arg_min.md)
 - [Countif](countif.md)
@@ -80,6 +78,6 @@ A demo environment for queries can be accessed at [https://aka.ms/LADemo](https:
 - [Take_any](take_any.md)
 - [Top-nested](top-nested.md)
 
-### Data Sets
+## Data Sets
 
 - [Let](let.md)
