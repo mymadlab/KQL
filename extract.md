@@ -1,4 +1,7 @@
-# Extract
+---
+layout: home
+title: Extract
+---
 
 - Similar to split, but instead of separating a string based on a character, extract gets data from a string based on a regular expression.
 

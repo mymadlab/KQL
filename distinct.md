@@ -1,4 +1,7 @@
-# Distinct
+---
+layout: home
+title: Distinct
+---
 
 - Find unique value in a column or unique combinations across multiple columns
 

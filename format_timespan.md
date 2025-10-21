@@ -1,4 +1,7 @@
-# Format_timespan
+---
+layout: home
+title: Format_tiimespan
+---
 
 - Formats the amount of time between two dates
 

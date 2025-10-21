@@ -1,4 +1,7 @@
-# Search Syntax and Notes
+---
+layout: home
+title: Search Syntax and Notes
+---
 
 - Search will only look in columns that match the type of data being searched for.
 - Search like most of KQL is case insensitive

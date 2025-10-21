@@ -1,4 +1,7 @@
-# Top-nested
+---
+layout: home
+title: Top-nested
+---
 
 - Performs hierarchical aggregation and value selection.
 - Supports multiple types of aggregations sum(), count(), max(), min(), dcount(), avg(), percentile(), precentilew(), or any algebraic combination of them.

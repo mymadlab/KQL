@@ -1,4 +1,7 @@
-# Case
+---
+layout: home
+title: Case
+---
 
 - Multiple conditions with multiple outcomes (if, elseif, then)
 

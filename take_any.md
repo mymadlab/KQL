@@ -1,4 +1,7 @@
-# Take_any
+---
+layout: home
+title: Take_any
+---
 
 - Randomly selects a row
 

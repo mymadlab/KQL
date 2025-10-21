@@ -1,4 +1,7 @@
-# Sum/Sumif
+---
+layout: home
+title: Sum/Sumif
+---
 
 - Sum returns a grand total of the indicated column
 - Sumif allows for you to filter based on a condition like countif

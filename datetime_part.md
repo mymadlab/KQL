@@ -1,4 +1,7 @@
-# Datetime_part
+---
+layout: home
+title: Datetime_part
+---
 
 - Extracts the individual part of a datetime part returning a integer.
 

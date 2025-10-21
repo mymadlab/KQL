@@ -1,4 +1,7 @@
-# Count
+---
+layout: home
+title: Count
+---
 
 - Counts the number of rows
 

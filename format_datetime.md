@@ -1,4 +1,7 @@
-# Format_datetime
+---
+layout: home
+title: Format_datetime
+---
 
 - Outputs datetime types based on the defined format returning a string.
 

@@ -1,4 +1,7 @@
-# Take
+---
+layout: home
+title: Take
+---
 
 - Returns a specified number of random rows
 - Useful for testing queries with smaller intake of records to help speed development time

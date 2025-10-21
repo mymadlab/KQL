@@ -1,4 +1,7 @@
-# Parse_json
+---
+layout: home
+title: Parse_json
+---
 
 - Reads JSON from a record and access specific data
 - Previously called todynamic

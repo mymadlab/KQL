@@ -1,4 +1,7 @@
-# Between
+---
+layout: home
+title: Between
+---
 
 - Used to determine if datetime/number is between two other datetimes/numbers
 

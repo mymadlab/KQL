@@ -1,4 +1,7 @@
-# Where
+---
+layout: home
+title: Where
+---
 
 - Condition based search
 

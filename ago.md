@@ -1,4 +1,7 @@
-# Ago
+---
+layout: home
+title: Ago
+---
 
 - Calculates past date relative to the current date
 - Supplying a negative value will give you a future date

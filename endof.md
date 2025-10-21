@@ -1,3 +1,8 @@
+---
+layout: home
+title: Endof
+---
+
 # Endof
 
 -  Set of operators that allow you to select the end of a time period (day, year, etc.)

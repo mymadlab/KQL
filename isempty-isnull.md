@@ -1,4 +1,7 @@
-# IsEmpty / IsNull
+---
+layout: home
+title: IsEmpty / IsNull
+---
 
 - Allows you to test if for data that is empty or missing.
 - Missing strings are **EMPTY**

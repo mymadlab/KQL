@@ -1,4 +1,7 @@
-# Kusto Query Language
+---
+layout: home
+title: Kusto Query Language (KQL)
+---
 
 A demo environment for queries can be accessed at [https://aka.ms/LADemo](https://aka.ms/LADemo).
 

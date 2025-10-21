@@ -1,4 +1,7 @@
-# Percentiles
+---
+layout: home
+title: Percentiles
+---
 
 - Calculate values that are greater than a percentage for a given sample
 

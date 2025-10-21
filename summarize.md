@@ -1,4 +1,7 @@
-# Summarize
+---
+layout: home
+title: Summarize
+---
 
 - Allows you to count rows by column using count(), avg(), etc.
 

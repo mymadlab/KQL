@@ -1,4 +1,7 @@
-# Makeset / Makelist
+---
+layout: home
+title: Makeset / Makelist
+---
 
 - Makeset creates an array of json objects by flattening a hierarchy. Remove multiple values
 - Makelist same as makeset, but keeps duplicate values.
