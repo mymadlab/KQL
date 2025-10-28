@@ -25,6 +25,9 @@ show_posts: true
 show_rss_subscribe: true
 header_pages: 
 
+# Page navigation settings
+enable_page_paths: false   # Set to false to disable automatic page discovery for header navigation
+
 # Exclude from processing
 exclude:
   - .sass-cache/
